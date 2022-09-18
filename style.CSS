@@ -1,8 +1,8 @@
 body {
-    margin: 0;
     padding: 2rem;
     box-sizing: border-box;
     height: 100vh;
+    
     background-color: rgb(31, 28, 39);
     color: #fafcff;
   }
@@ -10,7 +10,13 @@ body {
   main {
     border: 1px solid #fafcff;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 100%;
+  }
+
+  h2{
+    margin-bottom: 5rem;
+    font-size: xx-large;
   }
   
   p {
@@ -18,4 +24,53 @@ body {
     text-align: center;
     font-size: large;
   }
+
+  .input-label {
+    display: block;
+    font-weight: 60px;
+    font-size: x-large;
+    margin-bottom: 2rem;
+    
+  }
+  .input{
+    margin-bottom: 2rem;
+    font-size: x-large;
+    
+  }
+
+  #show-btn {
+    background: rgb(88, 18, 18);
+    border: 2px;
+    color: aliceblue;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+  }
   
+  footer {
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: large;
+    text-align: center;
+  }
+  
+  .footer-list {
+    margin: 1rem;
+  }
+  
+  a,
+  img,
+  li {
+    display: inline;
+    margin-bottom: 1rem;
+  }
+  
+  img {
+    width: 30px;
+    padding: auto;
+  }
